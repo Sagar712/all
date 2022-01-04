@@ -17,6 +17,9 @@ body{
 }
 
 .head{
+    position: sticky;
+    top: 0;
+    left: 0;
     width: 100vw;
     height: 3.5rem;
     justify-content: center;
@@ -94,11 +97,6 @@ button:active{
 }
 
 @media screen and (max-width:960px){
-    .head{
-        position: sticky;
-        top: 0;
-        left: 0;
-    }
     table{
         width: 97vw;
     }
